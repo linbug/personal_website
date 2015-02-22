@@ -1,0 +1,80 @@
+   body {
+      text-align: left;
+      background: #5CCCCC;
+      background-image: url("banner.jpg");
+      background-position: left; 
+      background-size: cover;
+      background-position: -200px ;
+      color: white;
+      margin:0 auto;
+    }
+    
+     h1 {
+      font-family: 'Roboto', sans-serif; font-weight: 300;
+      font-size: 80px;
+      colour : white;
+      text-align: center;
+      padding: 50px 20px 50px 20px;
+      margin: 50px 0px 0px 0px;
+    }
+    
+    img{
+    margin: 0px 0px 20px 0px;
+    
+  }
+    a{
+    color: white;
+    }
+     a:link {
+    text-decoration: none;
+    }
+    header {
+    text-align: center;
+    /*background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));*/
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    color: white;
+    margin: 0;
+     }
+    
+    a{
+    color: white;
+    }
+    
+    ul{
+    padding: 50px,; 
+
+    }
+    
+    li{
+    display: inline;
+    padding: 0px 30px 200px 10px;
+    font-size: 20px; 
+    float: right;
+    }
+    
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+      text-align:justify;
+    }
+    .introduction{
+      max-width: 800px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+   @media (max-width: 500px){
+     body{
+      background: red; 
+     }
+     h1{
+      font-size: 36px; 
+     }
+     li{
+      display: block;
+      padding: 0px;
+     }
+     
+    
+    }
