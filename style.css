@@ -5,16 +5,17 @@
       background-position: left; 
       background-size: cover;
       background-position: -200px ;
+      background-attachment: fixed;
       color: white;
       margin:0 auto;
     }
     
      h1 {
-      font-family: 'Roboto', sans-serif; font-weight: 300;
+      font-family: 'Roboto', sans-serif; font-weight: 100;
       font-size: 80px;
       colour : white;
       text-align: center;
-      padding: 50px 20px 50px 20px;
+      padding: 40px 20px 40px 20px;
       margin: 50px 0px 0px 0px;
     }
     
@@ -60,14 +61,16 @@
       text-align:justify;
     }
     .introduction{
-      max-width: 800px;
+      max-width: 600px;
       padding: 20px;
       margin: 0 auto;
     }
+    
+    .picturelink:hover{
+    background:#0000ff;
+}
    @media (max-width: 500px){
-     body{
-      background: red; 
-     }
+     
      h1{
       font-size: 36px; 
      }
