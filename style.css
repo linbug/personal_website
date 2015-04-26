@@ -1,9 +1,9 @@
    body {
       text-align: left;
-      background: #5CCCCC;
       background-image: url("banner.jpg");
       background-position: left; 
       background-size: cover;
+      background-repeat: no-repeat;
       background-position: -200px ;
       background-attachment: fixed;
       color: white;
@@ -13,16 +13,16 @@
      h1 {
       font-family: 'Roboto', sans-serif; font-weight: 100;
       font-size: 80px;
-      colour : white;
+      color: #5CCCCC;
       text-align: center;
-      padding: 40px 20px 40px 20px;
+      padding: 20px 10px 20px 10px;
       margin: 50px 0px 0px 0px;
     }
     
-    img{
-    margin: 0px 0px 20px 0px;
+    h1.test{
+    color: green;
+    }
     
-  }
     a{
     color: white;
     }
@@ -38,23 +38,7 @@
     margin: 0;
      }
     
-    a{
-    color: white;
-    }
-    
-    ul{
-    padding: 50px,; 
-
-    }
-    
-    li{
-    display: inline;
-    padding: 0px 30px 200px 10px;
-    font-size: 20px; 
-    float: right;
-    }
-    
-    p {
+       p {
       font-family: 'Roboto', sans-serif;
       font-size: 16px;
       line-height: 28px;
@@ -65,11 +49,35 @@
       padding: 20px;
       margin: 0 auto;
     }
+        
+     a{
+     font-family: 'Roboto', sans-serif;
+     color: white;
+    }
+      
+        img{
+    /*margin: 0px 0px 20px 0px;*/
+     }
     
-    .picturelink:hover{
-    background:#0000ff;
+    li{
+    display: inline;
+    margin: 0px 20px 20px 0px;
+    padding:0;
+    font-size: 20px; 
+    float: right;
+    /*background:#0000ff;*/
+    }
+    
+    i:hover{
+    color:#5CCCCC;
 }
-   @media (max-width: 500px){
+     .picturelink img{
+    vertical-align: middle;
+    display: block;
+    width: 50px;
+    }
+   
+   @media (max-width: 300px){
      
      h1{
       font-size: 36px; 
@@ -78,6 +86,11 @@
       display: block;
       padding: 0px;
      }
-     
-    
+     p{
+        font-size: 20px;
+        line-height: 24px;
+     }
+    div{
+  margin: auto; 
+ }
     }
