@@ -38,13 +38,20 @@
     margin: 0;
      }
     
+    aside {
+    position:fixed;
+    top: 300px;
+    right: 70px;
+    }
+    
+   
        p {
       font-family: 'Roboto', sans-serif;
       font-size: 16px;
       line-height: 28px;
       text-align:justify;
     }
-    .introduction{
+    .blogroll{
       max-width: 600px;
       padding: 20px;
       margin: 0 auto;
@@ -54,12 +61,14 @@
      font-family: 'Roboto', sans-serif;
      color: white;
     }
-      
+     a:hover{
+    color:#5CCCCC;
+    }
         img{
     /*margin: 0px 0px 20px 0px;*/
      }
     
-    li{
+    li.external_links{
     display: inline;
     margin: 0px 20px 20px 0px;
     padding:0;
@@ -71,11 +80,6 @@
     i:hover{
     color:#5CCCCC;
 }
-     .picturelink img{
-    vertical-align: middle;
-    display: block;
-    width: 50px;
-    }
    
    @media (max-width: 300px){
      
