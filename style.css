@@ -1,6 +1,6 @@
    body {
       text-align: left;
-      background-image: url("banner.jpg");
+      background-image: url("banner4.jpg");
       background-position: left; 
       background-size: cover;
       background-repeat: no-repeat;
@@ -13,7 +13,7 @@
      h1 {
       font-family: 'Roboto', sans-serif; font-weight: 100;
       font-size: 70px;
-      color: #5CCCCC;
+      color: white;
       text-align: center;
       padding: 20px 10px 20px 10px;
       margin: 50px 0px 0px 0px;
@@ -23,6 +23,19 @@
     color: green;
     }
     
+    h2{
+     font-family: 'Roboto', sans-serif; font-weight: 100;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      text-align: left;
+      padding: 0px 10px 10px 0px;
+      margin: 10px 0px 0px 0px; 
+     }
+    hr{
+    align:left;
+    width:400;
+     }
     a{
     color: white;
     }
@@ -40,7 +53,7 @@
     
     aside {
     position:fixed;
-    top: 250px;
+    top: 200px;
     right: 150px;
     line-height: 28px;
     }
@@ -86,6 +99,9 @@
      
      h1{
       font-size: 36px; 
+     }
+     h2{
+      font-size: 15px; 
      }
      li{
       display: block;
